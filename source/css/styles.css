@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "Rubik Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Rubik-Regular.woff") format("woff"), url("../fonts/Rubik-Regular.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Rubik Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Rubik-Medium.woff") format("woff"), url("../fonts/Rubik-Medium.woff2") format("woff2"); }
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik Regular", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px; }
+
+a {
+  text-decoration: none; }
+
+p {
+  padding: 0;
+  margin: 0; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.visually-hidden {
+  display: none; }
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.pink {
+  padding: 7px;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, #ed5127, #ee0965); }
+  .pink p {
+    padding: 10px 10px 15px;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    border: 2px dashed #fff;
+    text-align: center; }
+
+.header {
+  padding: 15px 12px; }
+
+.header__logo {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block; }
+
+.header__info {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase; }
+
+.product {
+  background-image: url("../img/main-photo.png");
+  background-repeat: no-repeat;
+  margin-bottom: -28px; }
+
+.product__sale {
+  width: 73px;
+  height: 73px;
+  padding-top: 18px;
+  margin-bottom: 19px;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: #ef4d23;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center; }
+
+.product__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 20px;
+  z-index: 2; }
+
+.product__price {
+  list-style: none; }
+
+.product__price {
+  min-width: 126px; }
+
+.product__item {
+  min-height: 40px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  font-family: "Rubik Medium", sans-serif;
+  color: #313131;
+  text-align: center; }
+  .product__item--price-before {
+    font-size: 16px;
+    line-height: 25px;
+    background-color: rgba(169, 169, 169, 0.93); }
+    .product__item--price-before p {
+      width: auto;
+      display: block;
+      position: relative; }
+    .product__item--price-before p::after {
+      content: "";
+      width: 50%;
+      height: 2px;
+      position: absolute;
+      top: 11px;
+      left: 25%;
+      background-color: #313131; }
+  .product__item--price-after {
+    font-size: 22px;
+    line-height: 25px;
+    background-image: url("../img/background-sale.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+
+.product__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+  position: relative;
+  top: -28px;
+  background-color: #538500; }
+
+.product__cons {
+  margin-bottom: 8px; }
+  .product__cons li {
+    padding-left: 25px;
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff; }
+    .product__cons li::before {
+      content: "";
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      top: 2px;
+      left: 0;
+      background-image: url("../img/tick.png");
+      background-size: cover; }
+
+.button {
+  width: 95%;
+  min-height: 45px;
+  padding: 0;
+  padding-top: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 22px;
+  line-height: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  background-color: #931d53;
+  box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.75);
+  box-sizing: border-box; }
+
+.problems {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("https://payshopss.ru/turbofit-nn6/img/rep-bg.jpg"); }
+
+.problems__header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Rubik Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  color: #424242; }
+
+.problems__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.problems__item {
+  width: 48%;
+  box-sizing: border-box;
+  margin-bottom: 28px; }
+  .problems__item img {
+    max-width: 100%;
+    height: auto; }
+  .problems__item h3 {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 11px;
+    font-weight: 200;
+    color: #ff0000;
+    text-transform: uppercase;
+    text-align: center; }
+  .problems__item p {
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 9px;
+    font-weight: 200;
+    text-align: center; }
+
+.about {
+  background-color: #518200; }
+
+.about__wrapper {
+  padding: 30px 15px 0 15px; }
+
+.about__title {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center; }
+
+.about__info {
+  padding: 0;
+  margin-bottom: 25px;
+  font-family: "Rubik Regular", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff; }
+
+.about__link {
+  margin-bottom: 25px; }
+
+.whats-inside {
+  padding: 30px 15px; }
+
+.whats-inside__header {
+  padding: 0;
+  font-family: "Rubik Medium",sans-serif;
+  font-size: 19px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #313131;
+  text-transform: uppercase;
+  text-align: center; }
+
+.whats-inside__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.whats-inside__item--piperina {
+  width: 53%; }
+
+.whats-inside__item--curcuma {
+  width: 45%; }
+
+.whats-inside__item img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block; }
+
+.whats-inside__item h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik Medium",sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #70bf04;
+  text-align: center;
+  text-transform: uppercase; }
+
+.whats-inside__item p {
+  padding: 0;
+  font-family: "Rubik Regular", sans-serif;
+  font-size: 13px;
+  color: #494949;
+  text-align: center; }
