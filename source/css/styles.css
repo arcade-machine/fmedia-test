@@ -38,6 +38,25 @@ ul {
   margin: 0 auto;
   box-sizing: border-box; }
 
+.call-me {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 50%;
+  bottom: 10%;
+  -webkit-transform: translateX(120px);
+          transform: translateX(120px);
+  display: inline-block;
+  background-image: url("../img/i-phone.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 3;
+  transition: all .4s ease-in-out;
+  cursor: pointer; }
+  .call-me:hover {
+    -webkit-transform: translateX(120px) scale(1.2);
+            transform: translateX(120px) scale(1.2); }
+
 .pink {
   padding: 7px;
   box-sizing: border-box;
@@ -176,9 +195,11 @@ ul {
   text-transform: uppercase;
   text-align: center;
   display: block;
+  border: none;
   background-color: #931d53;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.75);
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: pointer; }
 
 .problems {
   padding-top: 30px;
@@ -624,3 +645,118 @@ ul {
 .block-8 .slick-next {
   right: 20px;
   background-position: 0 0; }
+
+.order-form {
+  padding: 20px 15px;
+  background-color: #568900; }
+  .order-form h2 {
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f6f900; }
+  .order-form input {
+    min-height: 47px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 16px; }
+    .order-form input::-webkit-input-placeholder {
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px; }
+    .order-form input:-ms-input-placeholder {
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px; }
+    .order-form input::-ms-input-placeholder {
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px; }
+    .order-form input::placeholder {
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px; }
+  .order-form p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #931d53;
+    text-align: center; }
+
+.order-form__comune {
+  width: 50%; }
+
+.order-form__cap {
+  width: 30%; }
+
+.order-form form {
+  display: flex;
+  flex-direction: column; }
+  .order-form form label {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; }
+
+.order-form__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
+.order-form__button {
+  padding: 0; }
+
+.pop-up {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  .pop-up form {
+    max-width: 320px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #538500;
+    box-sizing: border-box; }
+    .pop-up form h3 {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+      width: 100%;
+      display: block;
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff; }
+  .pop-up label {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff; }
+
+.pop-up--open {
+  display: block; }
+
+.pop-up__close {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-image: url("../img/i-cross.svg");
+  background-repeat: no-repeat;
+  background-size: cover; }

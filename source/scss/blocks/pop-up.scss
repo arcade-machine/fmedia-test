@@ -1,0 +1,62 @@
+.pop-up {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  & form {
+    max-width: 320px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #538500;
+    box-sizing: border-box;
+
+    & h3 {
+      padding: 0;
+      margin: 0;
+      margin-bottom: 30px;
+      width: 100%;
+      display: block;
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+
+  & label {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+.pop-up--open {
+  display: block;
+}
+
+.pop-up__close {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: -30px;
+  right: 0;
+  background-image: url("../img/i-cross.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

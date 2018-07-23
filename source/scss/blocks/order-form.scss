@@ -1,0 +1,68 @@
+.order-form {
+  padding: 20px 15px;
+  background-color: #568900;
+
+  & h2 {
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f6f900;
+  }
+
+  & input {
+    min-height: 47px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 16px;
+
+    &::placeholder {
+      font-family: "Rubik Regular", sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  & p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #931d53;
+    text-align: center;
+  }
+}
+
+
+.order-form__comune {
+  width: 50%;
+}
+
+.order-form__cap {
+  width: 30%;
+}
+
+.order-form form {
+  display: flex;
+  flex-direction: column;
+
+  & label {
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.order-form__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-form__button {
+  padding: 0;
+}

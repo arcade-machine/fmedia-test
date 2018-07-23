@@ -46,7 +46,7 @@
                         <p>Блокировка жировых отложений</p>
                     </li>
                 </ul>
-                <a href="#" class="product__link button">Заказать сейчас</a>
+                <a href="#form" class="product__link button">Заказать сейчас</a>
             </div>
         </section>
     </section>
@@ -90,7 +90,7 @@
             <h2 class="about__title">"Piperina & Curcuma" - легкий путь к стройному телу!</h2>
             <img class="about__image" src="img/piperina.png" width="287" height="292">
             <p class="about__info">"Piperina & Curcuma" - революционное средство в борьбе с лишним весом! В его составе только натуральные природные компоненты. Никакой химии и искусственно синтезированных веществ. Турбофит абсолютно безопасен - он не влияет на сердечно-сосудистую и центральную нервную систему.</p>
-            <a href="#" class="about__link button">Заказать сейчас</a>
+            <a href="#form" class="about__link button">Заказать сейчас</a>
         </div>
         <div class="about__unique pink">
             <p>Турбофит содержит активный ингредиент СИНЕФРИН, который направлен на ТОТАЛЬНОЕ ЖИРОСЖИГАНИЕ. Его уникальные свойства способствуют максимальному похудению ВСЕГО ЗА НЕДЕЛЮ!</p>
@@ -118,7 +118,7 @@
     </section>
     <section class="order-now">
         <h2 class="order-now__header">ЗАКАЖИ Piperina & Curcuma СЕГОДНЯ СО СКИДКОЙ 50%</h2>
-        <a href="#" class="order-now__link button">Заказать сейчас</a>
+        <a href="#form" class="order-now__link button">Заказать сейчас</a>
     </section>
     <section class="safety">
         <h2 class="safety__header">Избавьтесь от жира раз и навсегда с Piperina & Curcuma</h2>
@@ -198,7 +198,7 @@
                 <p>Думала, что не успею подготовиться к пляжному сезону, но меня выручил TurboFit! Препарат просто великолепен: и вкус отличный, и эффект мощный, и цена доступная. С ним у жира просто нет шансов - он обязательно уйдет. Главное - терпение. Мне за 1,5 месяца без всяких усилий удалось скинуть 14,5 кг. Главное придерживайтесь инструкции.</p>
             </div></div></div>
             <span data-role="none" class="slick-next animate slick-arrow" aria-label="Next" role="button" style="display: block;"></span></div>
-        <a href="#" class="slider__link button">Заказать сейчас</a>
+        <a href="#form" class="slider__link button">Заказать сейчас</a>
     </section>
     <section class="sale">
         <header class="sale__header header">
@@ -237,7 +237,7 @@
                         <p>Блокировка жировых отложений</p>
                     </li>
                 </ul>
-                <a href="#" class="product__link button">Заказать сейчас</a>
+                <a href="#form" class="product__link button">Заказать сейчас</a>
             </div>
         </section>
     </section>
@@ -245,46 +245,67 @@
         <h4>До конца акции осталось:</h4>
         <div class="countbox clearfix"><div class="countbox-num"><div class="countbox-hours1"><span></span>0</div><div class="countbox-hours2"><span></span>7</div><div class="countbox-hours-text">Часов</div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-mins1"><span></span>5</div><div class="countbox-mins2"><span></span>0</div><div class="countbox-mins-text">Минут</div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-secs1"><span></span>1</div><div class="countbox-secs2"><span></span>4</div><div class="countbox-secs-text">Секунд</div></div></div>
     </div>
-    <section class="order">
+    <section class="order-form" id="form">
         <h2>Ordina ora Piperina & Curcuma!</h2>
         <form>
             <label>
                 Nome e Cognome
-                <input type="text">
+                <input type="text" placeholder="Nome e Cognome">
             </label>
             <label>
                 Indirizzo e n. civico
-                <input type="text">
+                <input type="text" placeholder="Indirizzo e n. civico">
             </label>
-            <div class="order__wrapper">
-                <label>
+            <div class="order-form__wrapper">
+                <label class="order-form__comune">
                     Comune
-                    <input type="text">
+                    <input type="text" placeholder="Comune">
                 </label>
-                <label>
+                <label class="order-form__cap">
                     CAP
-                    <input type="text">
+                    <input type="text" placeholder="CAP">
                 </label>
             </div>
             <label>
                 Telefono (Pref. Cellulare)
-                <input type="text">
+                <input type="text" placeholder="Telefono">
             </label>
             <label>
                 Quante confezioni vuoi ordinare?
-                <input type="text">
+                <input type="text" placeholder="Quante">
             </label>
             <p>La spedizione con corriere espresso è INCLUSA!</p>
             <label>
                 Note per il corriere  (Es. Nome sul citofono)
-                <input type="text">
+                <input type="text" placeholder="Note per il corriere">
             </label>
             <p>iccando "INVIA ORDINE" confermi di averpreso visione dell'informativa sulla privacy.</p>
-            <button type="submit" class="order__button button">Заказать сейчас</button>
+            <button type="submit" class="order-form__button button">Заказать сейчас</button>
+        </form>
+    </section>
+    <a class="call-me">
+        <p class="visually-hidden">Позвоните нам!</p>
+    </a>
+    <section class="pop-up">
+        <form class="pop-up__form">
+            <h3>Заинтерисовало предложение? Мы можем вам перезвонить!</h3>
+            <label>
+                Ваше имя
+                <input type="text" required>
+            </label>
+            <label>
+                Ваш телефон
+                <input type="tel" required>
+            </label>
+            <button type="submit" class="button">Перезвоните мне!</button>
+            <a class="pop-up__close">
+                <p class="visually-hidden">Закрыть окно</p>
+            </a>
         </form>
     </section>
 </div>
 <script src="js/count.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
