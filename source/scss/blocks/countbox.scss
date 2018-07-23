@@ -1,0 +1,49 @@
+.countbox{
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 15px 0 30px;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+}
+.countbox .countbox-num{
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 68px;
+  line-height: 65px;
+  color: #fff;
+}
+.countbox .countbox-space{
+  float: left;
+  width: 3%;
+  height: 68px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #fff;
+}
+.countbox .countbox-space:before{content: '\003A';}
+.countbox-hours1,.countbox-mins1,.countbox-secs1, .countbox-hours2,.countbox-mins2,.countbox-secs2{
+  float: left;
+  width: 40%;
+  height: 68px;
+  margin: 0 4px;
+  font-weight: 900;
+  color: #547717;
+  background: #f6f900;
+  z-index: 1;
+  border-radius: 4px;
+}
+.countbox-hours-text,.countbox-mins-text,.countbox-secs-text{
+  position: absolute;
+  margin-top: 50px;
+  height: 18px;
+  width: 30%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-transform: lowercase;
+}

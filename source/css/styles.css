@@ -16,8 +16,7 @@ body {
   margin: 0;
   font-family: "Rubik Regular", sans-serif;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 24px; }
+  font-size: 15px; }
 
 a {
   text-decoration: none; }
@@ -209,10 +208,12 @@ ul {
   margin-bottom: 28px; }
   .problems__item img {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    margin-bottom: 10px; }
   .problems__item h3 {
     padding: 0;
     margin: 0;
+    margin-bottom: 5px;
     font-family: "Rubik Regular", sans-serif;
     font-size: 11px;
     font-weight: 200;
@@ -299,3 +300,327 @@ ul {
   font-size: 13px;
   color: #494949;
   text-align: center; }
+
+.order-now {
+  padding: 30px 15px;
+  background-color: #70bf04; }
+
+.order-now__header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center; }
+
+.safety {
+  padding: 30px 15px 50px 15px;
+  background-color: #ee0965;
+  background-image: linear-gradient(to bottom, #ee0965, #ed5127); }
+  .safety h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Rubik Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center; }
+  .safety p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #ffffff; }
+
+.safety__header {
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase; }
+
+.opinion__wrapper {
+  padding: 30px 15px 15px;
+  background-color: #568900;
+  background-image: url("http://payshopss.ru/land_turbofit-nn6/img/bg-3.jpg");
+  background-repeat: no-repeat; }
+  .opinion__wrapper img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    display: block; }
+  .opinion__wrapper h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Rubik Medium", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center; }
+  .opinion__wrapper p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff; }
+
+.opinion__header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 200;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase; }
+
+.order {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: url("https://payshopss.ru/turbofit-nn6/img/rep-bg.jpg"); }
+
+.order__header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Rubik Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  color: #424242; }
+
+.order__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.order__item {
+  width: 48%;
+  box-sizing: border-box;
+  margin-bottom: 28px; }
+  .order__item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; }
+  .order__item h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #424242;
+    text-transform: uppercase;
+    text-align: center; }
+  .order__item p {
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 9px;
+    font-weight: 200;
+    text-align: center; }
+
+.slider {
+  padding: 30px 15px;
+  background-color: #568900;
+  background-image: url("http://payshopss.ru/land_turbofit-nn6/img/bg-3.jpg");
+  background-repeat: no-repeat; }
+
+.slider__header {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Rubik Medium", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase; }
+
+.slider__item {
+  width: 100%; }
+  .slider__item img {
+    max-width: 100%;
+    height: auto; }
+  .slider__item h3 {
+    font-family: "Rubik Medium", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-align: center; }
+  .slider__item p {
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #ffffff; }
+
+.countbox {
+  width: 100%;
+  min-height: 100px;
+  margin: 0 auto;
+  padding: 15px 0 30px;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff; }
+
+.countbox .countbox-num {
+  position: relative;
+  float: left;
+  width: 30%;
+  height: 68px;
+  line-height: 65px;
+  color: #fff; }
+
+.countbox .countbox-space {
+  float: left;
+  width: 3%;
+  height: 68px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #fff; }
+
+.countbox .countbox-space:before {
+  content: '\003A'; }
+
+.countbox-hours1, .countbox-mins1, .countbox-secs1, .countbox-hours2, .countbox-mins2, .countbox-secs2 {
+  float: left;
+  width: 40%;
+  height: 68px;
+  margin: 0 4px;
+  font-weight: 900;
+  color: #547717;
+  background: #f6f900;
+  z-index: 1;
+  border-radius: 4px; }
+
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+  position: absolute;
+  margin-top: 50px;
+  height: 18px;
+  width: 30%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-transform: lowercase; }
+
+.timer {
+  padding: 15px 0 10px;
+  color: #fff;
+  text-align: center;
+  background: #568900; }
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+.slick-list:focus {
+  outline: none; }
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block; }
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''; }
+
+.slick-track:after {
+  clear: both; }
+
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px; }
+
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+.slick-slide img {
+  display: block; }
+
+.slick-slide.slick-loading img {
+  display: none; }
+
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+.slick-initialized .slick-slide {
+  display: block; }
+
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
+
+.block-8 .slick-arrow {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 82px;
+  cursor: pointer;
+  z-index: 99;
+  top: 120px;
+  background: url(http://payshopss.ru/land_turbofit-nn6/img/but-sl.png) no-repeat; }
+
+.block-8 .slick-prev {
+  left: 20px;
+  background-position: -50px 0; }
+
+.block-8 .slick-next {
+  right: 20px;
+  background-position: 0 0; }

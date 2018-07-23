@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Тестовое задание, Fmedia</title>
     <link rel="stylesheet" href="css/styles.min.css">
+    <script src="//static.best-gooods.ru/js/jquery.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
@@ -125,10 +126,12 @@
         <p>Для достижения желаемого эффекта рекомендуется применять по одному пакетику Piperina & Curcuma, разведенного в стакане воды, один раз в день за 30 минут до первого приема пищи. В первый же день вы сразу заметите снижение чувства голода, прилив жизненных сил, бодрости и энергии. Как правило, за первую неделю большинство клиентов теряет уже до 4-5 кг.</p>
     </section>
     <section class="opinion">
-        <h2 class="opinion__header">Мнение эксперта</h2>
-        <img src="img/doc.jpg" alt="Мнение эксперта о Piperina & Curcuma">
-        <h3>Людмила Попова, врач-диетолог (стаж 6 лет)</h3>
-        <p class="expert">Обладая натуральным составом, Piperina & Curcuma является абсолютно безопасным средством для избавления от жировых отложений. Природное сочетание ингредиентов, находящихся в составе Piperina & Curcuma, направлено на максимальное расщепление жировых отложений, ускорение процесса метаболизма, снижение аппетита и избавления от токсичных веществ в организме. После применения препарата вес перестает колебаться, благодаря налаженному процессу обмена веществ.</p>
+        <div class="opinion__wrapper">
+            <h2 class="opinion__header">Мнение эксперта</h2>
+            <img src="http://payshopss.ru/land_turbofit-nn6/img/doc.jpg" alt="Мнение эксперта о Piperina & Curcuma">
+            <h3>Людмила Попова, врач-диетолог (стаж 6 лет)</h3>
+            <p>Обладая натуральным составом, Piperina & Curcuma является абсолютно безопасным средством для избавления от жировых отложений. Природное сочетание ингредиентов, находящихся в составе Piperina & Curcuma, направлено на максимальное расщепление жировых отложений, ускорение процесса метаболизма, снижение аппетита и избавления от токсичных веществ в организме. После применения препарата вес перестает колебаться, благодаря налаженному процессу обмена веществ.</p>
+        </div>
         <div class="opinion__stats pink">
             <p>Своим клиентам я прописываю данный продукт в качестве основного средства для похудения. По своей статистике могу сказать, что в 83% случаев при правильном употреблении продукта, мои пациенты сбрасывают от 8 до 14 кг за месяц.</p>
         </div>
@@ -136,78 +139,112 @@
     <section class="order">
         <h2 class="order__header">Как заказать Piperina & Curcuma?</h2>
         <ul class="order__list">
-            <li>
-                <img src="./img/deliv-1.jpg" alt="заказать Piperina & Curcuma">
+            <li class="order__item">
+                <img src="img/photo-1.jpg" alt="заказать Piperina & Curcuma">
                 <h3>Оформление</h3>
                 <p>Оставьте заявку на нашем сайте и мы свяжемся с Вами для оформления заказа</p>
             </li>
-            <li>
-                <img src="./img/deliv-2.jpg" alt="заказать Piperina & Curcuma">
+            <li class="order__item">
+                <img src="http://payshopss.ru/land_turbofit-nn6/img/deliv-2.jpg" alt="заказать Piperina & Curcuma">
                 <h3>Доставка</h3>
                 <p>Мы отправляем заказ бандеролью 1-го класса. Время доставки от 1 до 10 рабочих дней</p>
             </li>
-            <li>
-                <img src="./img/deliv-3.jpg" alt="заказать Piperina & Curcuma">
+            <li class="order__item">
+                <img src="http://payshopss.ru/land_turbofit-nn6/img/deliv-3.jpg" alt="заказать Piperina & Curcuma">
                 <h3>Оплата</h3>
                 <p>Никакой предоплаты! Вы оплачиваете заказ только при получении на руки</p>
             </li>
-            <li>
-                <img src="./img/deliv-4.jpg" alt="заказать Piperina & Curcuma">
+            <li class="order__item">
+                <img src="http://payshopss.ru/land_turbofit-nn6/img/deliv-4.jpg" alt="заказать Piperina & Curcuma">
                 <h3>Гарантии</h3>
                 <p>Вы вправе вернуть товар в течении 14 дней с момента получения</p>
             </li>
         </ul>
     </section>
     <section class="slider">
-        <h2 class="title">Отзывы покупателей</h2>
-        <ul class="slider__content">
-            <li class="slider__item">
-                <img>
-                <h3 class="slider__name"></h3>
-                <p>Отмечу быструю доставку и отсутствие предоплаты. Заказывать у вас действительно приятно. Ну а сомнений в эффективности Piperina & Curcuma у меня вообще не было - я прекрасно знаю, что такое синефрин, и как он работает. Теперь я могу позволить себе любую слабость в еде, ведь препарат не даст лишнему жиру проникнуть в организм. Советую Piperina & Curcuma всем, кто заботится о своей фигуре.</p>
-            </li>
-        </ul>
+        <h2 class="slider__header">Отзывы покупателей</h2>
+        <div class="rev-slider slick-initialized slick-slider"><span data-role="none" class="slick-prev animate slick-arrow" aria-label="Previous" role="button" style="display: block;"></span>
+            <div aria-live="polite" class="slick-list draggable" style="height: 636px;"><div class="slick-track" style="opacity: 1; width: 3840px; transform: translate3d(-2880px, 0px, 0px);" role="listbox"><div class="rev-item slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" style="width: 440px;" tabindex="-1">
+                <img src="./img/rev-6.jpg" alt="отзывы Turbofit">
+                <h3>Екатерина, 25 лет</h3>
+                <p>Отмечу быструю доставку и отсутствие предоплаты. Заказывать у вас действительно приятно. Ну а сомнений в эффективности Турбофит у меня вообще не было - я прекрасно знаю, что такое синефрин, и как он работает. Теперь я могу позволить себе любую слабость в еде, ведь препарат не даст лишнему жиру проникнуть в организм. Советую Турбофит всем, кто заботится о своей фигуре.</p>
+            </div><div class="rev-item slick-slide" data-slick-index="0" aria-hidden="true" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                <img src="./img/rev-1.jpg" alt="отзывы Turbofit">
+                <h3>Марина Климова, 26 лет</h3>
+                <p>Думала, что не успею подготовиться к пляжному сезону, но меня выручил TurboFit! Препарат просто великолепен: и вкус отличный, и эффект мощный, и цена доступная. С ним у жира просто нет шансов - он обязательно уйдет. Главное - терпение. Мне за 1,5 месяца без всяких усилий удалось скинуть 14,5 кг. Главное придерживайтесь инструкции.</p>
+            </div><div class="rev-item slick-slide" data-slick-index="1" aria-hidden="true" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide01">
+                <img src="./img/rev-2.jpg" alt="отзывы Turbofit">
+                <h3>Валентина Лыткина, 35 лет</h3>
+                <p>Хочу выразить огромную благодарность создателям Турбофит. Я думала, что моя ситуация неразрешима, но этот препарат доказал обратное. Рекомендую его всем, кто страдает ожирением - с ним у вас точно получится похудеть. Самое главное - будьте готовы обновить гардероб :) Ранее пробовала другие средства, жвачки, сиропы для похудения, но помог мне только турбофит.</p>
+            </div><div class="rev-item slick-slide" data-slick-index="2" aria-hidden="true" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide02">
+                <img src="./img/rev-3.jpg" alt="отзывы Turbofit">
+                <h3>Олеся Можаева, 28 лет</h3>
+                <p>Я наконец-то нашла средство, которое идеально подошло моему организму! Я сбросила уже 8 килограммов за две недели, и не намерена останавливаться. Сейчас я вешу 78 кг, хочу похудеть до 65. С TurboFit жить стало гораздо проще - я чувствую мощнейший прилив энергии, а вечная усталость попросту исчезла. Кажется, у меня началась новая жизнь.</p>
+            </div><div class="rev-item slick-slide" data-slick-index="3" aria-hidden="true" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide03">
+                <img src="./img/rev-4.jpg" alt="отзывы Turbofit">
+                <h3>Ольга Самсонова, 35 лет</h3>
+                <p>Всегда с неодобрением относилась к жиросжигателям, но турбофит мигом развеял все сомнения и стереотипы. Уникальный состав, ошеломляющий эффект. Меньше, чем за месяц я похудела на 14 килограмм! Но больше всего удивляют изменения в организме: я стала бодрее, радостнее, каждый день просыпаюсь с рассветом и наслаждаюсь жизнью!</p>
+            </div><div class="rev-item slick-slide" data-slick-index="4" aria-hidden="true" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide04">
+                <img src="./img/rev-5.jpg" alt="отзывы Turbofit">
+                <h3>Ирина Вавилова, 30 лет</h3>
+                <p>Решили с мужем поспорить - кто быстрее сбросит 5 лишних килограммов. Супруг начал экспериментировать с диетами, бегать по утрам, гантели поднимать. А я одолжила у подруги Турбофит. Как она уверяла, я должна была скинуть эти 5 кг примерно за пару недель. В итоге мне понадобилось всего 8 дней :) Муж в шоке - он похудел только на 1,5 килограмма и то за 2 недели)))</p>
+            </div><div class="rev-item slick-slide slick-current slick-active" data-slick-index="5" aria-hidden="false" style="width: 440px;" tabindex="-1" role="option" aria-describedby="slick-slide05">
+                <img src="./img/rev-6.jpg" alt="отзывы Turbofit">
+                <h3>Екатерина, 25 лет</h3>
+                <p>Отмечу быструю доставку и отсутствие предоплаты. Заказывать у вас действительно приятно. Ну а сомнений в эффективности Турбофит у меня вообще не было - я прекрасно знаю, что такое синефрин, и как он работает. Теперь я могу позволить себе любую слабость в еде, ведь препарат не даст лишнему жиру проникнуть в организм. Советую Турбофит всем, кто заботится о своей фигуре.</p>
+            </div><div class="rev-item slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" style="width: 440px;" tabindex="-1">
+                <img src="./img/rev-1.jpg" alt="отзывы Turbofit">
+                <h3>Марина Климова, 26 лет</h3>
+                <p>Думала, что не успею подготовиться к пляжному сезону, но меня выручил TurboFit! Препарат просто великолепен: и вкус отличный, и эффект мощный, и цена доступная. С ним у жира просто нет шансов - он обязательно уйдет. Главное - терпение. Мне за 1,5 месяца без всяких усилий удалось скинуть 14,5 кг. Главное придерживайтесь инструкции.</p>
+            </div></div></div>
+            <span data-role="none" class="slick-next animate slick-arrow" aria-label="Next" role="button" style="display: block;"></span></div>
         <a href="#" class="slider__link button">Заказать сейчас</a>
     </section>
     <section class="sale">
-        <header class="sail__header header">
-            <img class="header__logo">
+        <header class="sale__header header">
+            <img class="header__logo" src="img/logo.png" width="219" height="20">
+            <h1 class="visually-hidden">Piperina & Curcuma, безопасное средство для быстрого похудения</h1>
             <p class="header__info">Безопасное средство для быстрого похудения</p>
         </header>
         <section class="sale__item product">
             <span class="product__sale">- 50 %</span>
-            <img class="product__image">
-            <ul class="product__price">
-                <li class="product__item product__item--price-before">
-                    <p>€ 98, 00</p>
-                </li>
-                <li class="product__item product__item--price-after">
-                    <p>€ 49, 00</p>
-                </li>
-            </ul>
-            <ul class="product__cons">
-                <li>
-                    <p>Эффективное жиросжигание</p>
-                </li>
-                <li>
-                    <p>Нормализация обмена веществ</p>
-                </li>
-                <li>
-                    <p>Очищение организма</p>
-                </li>
-                <li>
-                    <p>Снижение аппетита</p>
-                </li>
-                <li>
-                    <p>Блокировка жировых отложений</p>
-                </li>
-            </ul>
-            <a href="#" class="product__link button">Заказать сейчас</a>
+            <div class="product__wrapper">
+                <img class="product__image" src="img/piperina.png" width="142" height="145">
+                <ul class="product__price">
+                    <li class="product__item product__item--price-before">
+                        <p>€ 98, 00</p>
+                    </li>
+                    <li class="product__item product__item--price-after">
+                        <p>€ 49, 00</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="product__container">
+                <ul class="product__cons">
+                    <li>
+                        <p>Эффективное жиросжигание</p>
+                    </li>
+                    <li>
+                        <p>Нормализация обмена веществ</p>
+                    </li>
+                    <li>
+                        <p>Очищение организма</p>
+                    </li>
+                    <li>
+                        <p>Снижение аппетита</p>
+                    </li>
+                    <li>
+                        <p>Блокировка жировых отложений</p>
+                    </li>
+                </ul>
+                <a href="#" class="product__link button">Заказать сейчас</a>
+            </div>
         </section>
     </section>
-    <section class="timer">
-        <h3 class="timer__header">До конца акии осталось:</h3>
-    </section>
+    <div class="timer">
+        <h4>До конца акции осталось:</h4>
+        <div class="countbox clearfix"><div class="countbox-num"><div class="countbox-hours1"><span></span>0</div><div class="countbox-hours2"><span></span>7</div><div class="countbox-hours-text">Часов</div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-mins1"><span></span>5</div><div class="countbox-mins2"><span></span>0</div><div class="countbox-mins-text">Минут</div></div><div class="countbox-space"></div><div class="countbox-num"><div class="countbox-secs1"><span></span>1</div><div class="countbox-secs2"><span></span>4</div><div class="countbox-secs-text">Секунд</div></div></div>
+    </div>
     <section class="order">
         <h2>Ordina ora Piperina & Curcuma!</h2>
         <form>
@@ -247,5 +284,7 @@
         </form>
     </section>
 </div>
+<script src="js/count.js"></script>
+<script src="js/slick.min.js"></script>
 </body>
 </html>

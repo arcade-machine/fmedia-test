@@ -1,11 +1,11 @@
-.problems {
+.order {
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   background-image: url("https://payshopss.ru/turbofit-nn6/img/rep-bg.jpg");
 }
 
-.problems__header {
+.order__header {
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
@@ -17,13 +17,13 @@
   color: #424242;
 }
 
-.problems__list {
+.order__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.problems__item {
+.order__item {
   width: 48%;
   box-sizing: border-box;
   margin-bottom: 28px;
@@ -39,9 +39,9 @@
     margin: 0;
     margin-bottom: 5px;
     font-family: "Rubik Regular", sans-serif;
-    font-size: 11px;
-    font-weight: 200;
-    color: #ff0000;
+    font-size: 12px;
+    font-weight: 800;
+    color: #424242;
     text-transform: uppercase;
     text-align: center;
   }
